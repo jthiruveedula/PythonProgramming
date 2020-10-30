@@ -2,8 +2,9 @@
 
 ### Python Programming(OOP's)
 
+**Cocepts Covered in this repo as below**
 ```markdown
-**Cocepts _Covered_ in this repo are..**
+
 - operatorOverLoading
 - methodOverLoadin
 - Method Overridding
