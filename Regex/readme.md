@@ -2,10 +2,10 @@
 
 **Python Regex**
 
-Regex is a sequence of characters that define a search pattern
-To specify regular exp, metachars are used. Metacharacters are chars that are interpreted with a special meaning
+- Regex is a sequence of characters that define a search pattern.
+- To specify regular exp, metachars are used. Metacharacters are chars that are interpreted with a special meaning
 
-__re__ moudle could be used for regular expressions with help find, search, find, split, sub functions
+__re__ moudle could be used for regular expressions with help of **match, findall, search, split, sub** functions
 ```
 re.match --> matches the regex pattern in 1st position of string
 re.search --> method returns match object if there is any match found in any position in the string
