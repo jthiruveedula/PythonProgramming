@@ -1,7 +1,19 @@
 ## Regex Cheet Sheet
 
-**Python Regex patterns**
- - Sample codes attached
+**Python Regex**
+
+Regex is a sequence of characters that define a search pattern
+To specify regular exp, metachars are used. Metacharacters are chars that are interpreted with a special meaning
+
+__re__ moudle could be used for regular expressions with help find, search, find, split, sub functions
+```
+re.match --> matches the regex pattern in 1st position of string
+re.search --> method returns match object if there is any match found in any position in the string
+re.findall --> returns a list that contains all patterns int the string
+re.split --> return a list in which the string has been spit in each match
+re.sub --> replace of matches in string
+```
+__MetaCharacters__
 
 ```
 [] --> Square Brackets
