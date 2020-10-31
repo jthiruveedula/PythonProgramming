@@ -1,9 +1,5 @@
-from datetime import timedelta, date
-
-
-def daterange(start, end):
-    return [start + timedelta(n) for n in range(int((end - start).days))]
-
-
-
-print(daterange(date(2020, 10, 10), date(2020, 10, 1)))
+a = ("John", "Charles", "Mike","super")
+b = ("Jenny-b", "Christy-b", "Monica-b", "Vicky-b")
+c = ("Jenny-c", "Christy-c", "Monica-c", "Vicky-c")
+x = zip(a, b,c)
+print(list(x))
