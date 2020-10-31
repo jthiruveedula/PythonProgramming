@@ -22,7 +22,8 @@ Hello print
 print(len("hello"))
 5
 ```
-#range()
+#range() 
+
 Suppose if we want to create a list of 10 integers, for that we need to explicitly type out each integer.
 
 If we use range function that will create for us by specifying start, stop value and step in case needed.
@@ -48,6 +49,7 @@ print(nums_list)
 output: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
 #round()
+
 The round() function returns a floating point number that is a rounded version of the specified number, with the specified number of decimals.
 
 The default number of decimals is 0, meaning that the function will return the nearest integer.
@@ -61,6 +63,7 @@ print(x)
 output: 5.77
 ```
 #enumerate()
+
 Enumerate() method adds a counter to an iterable and returns it in a form of enumerate object. This enumerate object can then be used directly in for loops or be converted into a list of tuples using list() method.
 
 ```
@@ -84,6 +87,7 @@ List Enum start index=2:  [(2, 'eat'), (3, 'sleep'), (4, 'repeat')]
 String Enum:  [(0, 'C'), (1, 'o'), (2, 'd'), (3, 'e')]
 ```
 #map(fun, iter)
+
 map() function returns a map object(which is an iterator) of the results after applying the given function to each item of a given iterable (list, tuple etc.)
 ```
 numbers=[2.3,5.2,4.1,5.67,7.02]
@@ -99,6 +103,7 @@ print(list(sqrt))
 output: [1, 4, 9, 16, 25]
 ```
 #zip()
+
 The zip() function returns a zip object, which is an iterator of tuples where the first item in each passed iterator is paired together, and then the second item in each passed iterator are paired together etc.
 
 If the passed iterators have different lengths, the iterator with the least items decides the length of the new iterator.
