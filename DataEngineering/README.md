@@ -27,6 +27,7 @@ print(len("hello"))
 Suppose if we want to create a list of 10 integers, for that we need to explicitly type out each integer.
 
 If we use range function that will create for us by specifying start, stop value and step in case needed.
+
 **range(start,stop,step)** function with out step
 ```
 nums=range(1,11)
