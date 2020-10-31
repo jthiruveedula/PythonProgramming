@@ -1,5 +1,11 @@
-a = ("John", "Charles", "Mike","super")
-b = ("Jenny-b", "Christy-b", "Monica-b", "Vicky-b")
-c = ("Jenny-c", "Christy-c", "Monica-c", "Vicky-c")
-x = zip(a, b,c)
-print(list(x))
+from timeit import timeit
+from datetime import datetime
+import numpy as np
+start = datetime.now()
+
+
+nums = np.random.rand(1000)
+print(nums)
+
+print(datetime.now() - start)
+
