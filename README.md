@@ -1,2 +1,5 @@
 ## PythonProgramming
-Python programming basic and object oriented 
+- Python Basic
+- Python OOP's
+- Python Advanced
+- Python for Data Engineering
