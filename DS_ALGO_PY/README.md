@@ -21,4 +21,4 @@ car1 = "Ford"
 car2 = "Volvo"
 car3 = "BMW"
 ```
-Find more Examples on [Array Sequence](/Array\ Sequences)
+Find more Examples on [Array Sequence](https://github.com/jthiruveedula/PythonProgramming/tree/master/DS_ALGO_PY/Array%20Sequences)
