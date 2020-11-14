@@ -1,4 +1,4 @@
-# Hive commands
+# Hive Fundamentals
 
 - set hive.metastore.warehouse.dir
 
